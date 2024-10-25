@@ -10,5 +10,6 @@ public class StartApp {
         FrmPrincipal frmPrincipal = new FrmPrincipal();
         System.out.println("hola");
         System.out.println("hola");
+        System.out.println("hola");
     }
 }
