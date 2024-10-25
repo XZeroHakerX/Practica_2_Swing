@@ -21,18 +21,7 @@ public class FrmPrincipal extends JFrame {
     private CtrlFramePrincipal ctrlFramePrincipal;
     private CtrlEmpleado ctrlEmpleado;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(() -> {
-            try {
-                CtrlEmpleado ctrlEmpleado = new CtrlEmpleado();
-                FrmPrincipal frame = new FrmPrincipal();
-                CtrlFramePrincipal ctrFrm = new CtrlFramePrincipal(frame, ctrlEmpleado);
-                frame.setVisible(true);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        });
-    }
+
 
     public FrmPrincipal() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -78,6 +67,7 @@ public class FrmPrincipal extends JFrame {
         ctrlEmpleado = new CtrlEmpleado();
         ctrlFramePrincipal = new CtrlFramePrincipal(this, ctrlEmpleado);
 
+        setVisible(true);
         setAltaVisible(false);
         setListeners();
     }
