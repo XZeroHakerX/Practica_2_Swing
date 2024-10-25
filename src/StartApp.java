@@ -9,5 +9,6 @@ public class StartApp {
         CtrlFramePrincipal ctrFrm = new CtrlFramePrincipal(frame, ctrlEmpleado);
         FrmPrincipal frmPrincipal = new FrmPrincipal();
         System.out.println("hola");
+        System.out.println("hola");
     }
 }
