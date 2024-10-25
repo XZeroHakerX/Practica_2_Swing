@@ -1,5 +1,8 @@
 import view.FrmPrincipal;
 
 public class StartApp {
-    FrmPrincipal frmPrincipal = new FrmPrincipal();
+    public static void main(String[] args) {
+        FrmPrincipal frmPrincipal = new FrmPrincipal();
+        System.out.println("Hola mundo");
+    }
 }
